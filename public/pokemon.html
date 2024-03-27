@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pokemonStyles.css">
+    <title>Pokemon Scale</title>
+</head>
+<body id="full-container">
+    <div id="left">
+        <div id="scale">
+            <img class="scaleparts" id="scalebody" src="images/Body.png">
+            <img class="scaleparts" id="scalearm" src="images/Arm.png">
+            <img class="scaleparts" id="scaleleft" src="images/ScaleLeft.png">
+            <img class="scaleparts" id="scaleright" src="images/ScaleRight.png">
+            <img class="scaleparts pokeimage" id="pokeleftone" weight="0">
+            <img class="scaleparts pokeimage" id="pokelefttwo" weight="0">
+            <img class="scaleparts pokeimage" id="pokeleftthree" weight="0">
+            <img class="scaleparts pokeimage" id="pokeleftfour" weight="0">
+            <img class="scaleparts pokeimage" id="pokerightone" weight="0">
+            <img class="scaleparts pokeimage" id="pokerighttwo" weight="0">
+            <img class="scaleparts pokeimage" id="pokerightthree" weight="0">
+            <img class="scaleparts pokeimage" id="pokerightfour" weight="0">
+        </div>
+        
+    </div>
+    <div id="right">
+        <div class="button-container">
+            <input class="inputs" id="pokemonfield">
+            <button class="inputs" id="pokemonget">Get Pokemon</button>
+        </div>
+        <div class="button-container">
+            <button class="inputs" id="placeleft">Add to Left Scale</button>
+            <button class="inputs" id="placeright">Add to Right Scale</button>
+        </div>
+        <h1 id="pokemonName"></h1>
+        <p id="pokemonWeight"></p>
+        <img id="pokemonSprite">
+        <p id="errorMessage"></p>
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="scripts/pokemonScript.js" type="module"></script>
+</html>

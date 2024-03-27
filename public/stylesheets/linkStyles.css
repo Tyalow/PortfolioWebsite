@@ -1,0 +1,37 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("../images/Links-Background.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#portrait {
+    width: 150px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.icon {
+    width: 50px;
+    margin: 0px 5px;
+}
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    width: 150px;
+    text-align: center;
+}

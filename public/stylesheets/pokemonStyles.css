@@ -1,0 +1,40 @@
+#full-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#scale {
+    width: 100%;
+    position: relative;
+}
+
+#left {
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+#right {
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.scaleparts {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs {
+    margin: 2px;
+}

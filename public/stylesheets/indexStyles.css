@@ -1,0 +1,41 @@
+html, body {
+    overflow: hidden;
+}
+
+.viewport {
+    width: 400px;
+    height: 400px;
+    overflow: relative;
+    border: 1px solid #ccc;
+}
+
+.foreground-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.doors {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#bg-container {
+    background-color: #707070;
+    width: 100%;
+    height: 100%;
+}
+
+#moving-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#sprite {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
